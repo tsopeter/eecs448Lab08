@@ -24,3 +24,5 @@ function draw(idx, dx, dy){
 		ctx.drawImage(img, dx, dy);
 	});
 }
+
+
