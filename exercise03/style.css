@@ -1,18 +1,45 @@
 body{
 	background-color: darkslateblue;
+	background-image: url(images/IMG_7393.PNG);
+	background-size: 150%;
+	background-repeat: no-repeat;
 }
 
 img{
-	border: 1px solid blue;
+	border: 5px solid blue;
 }
 
 img:hover{
-	background-color: red;
-	color: blue;
+	border: 5px solid red;
 }	
 
-p.lyrics{
+p.h1{	
+	font-size: 30px;
+	font-family: Monospace;
+	font: Monospace;
+	color: darkred;
+}
+
+p.h2{
+	font-family: Monospace;
 	font: Monospace;
 	color: azure;
 }
 
+p.lyrics{
+	font-family: Monospace;
+	color: azure;
+}
+
+div.b_div2{
+	font-family: Monospace;
+	background-color: #a0ff99;
+}
+
+a{
+	color: darkslateblue;
+}
+
+a:hover{
+	color: blue;
+}

@@ -1,4 +1,4 @@
-let fileArray = ['images/IMG_4019.PNG'];
+let fileArray = ['images/200px-RED_ZONE.png'];
 let resources = loadImages(fileArray);
 
 document.addEventListener('DOMContentLoaded', () => {
