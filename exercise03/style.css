@@ -6,6 +6,10 @@ body{
 	filter: brightness(100%);
 }
 
+div.mainr{
+	float: center;
+}
+
 img{
 	position: relative;
 	float: right;
@@ -44,15 +48,16 @@ div.video{
 	float: right;
 }
 
-div.b_div2{
-	bottom: 5px;
-	font-family: Monospace;
-	background-color: #a0ff99;
+#block2{
+	bottom: -300px;
+	text-align: left;
+	position: fixed;
+	background-color: green;
+	width: 100%;
 }
 
 a{
-	float: right;
-	color: darkslateblue;
+	color: white;
 }
 
 a:hover{
