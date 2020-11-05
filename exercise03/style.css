@@ -3,9 +3,12 @@ body{
 	background-image: url(images/IMG_7393.PNG);
 	background-size: 150%;
 	background-repeat: no-repeat;
+	filter: brightness(100%);
 }
 
 img{
+	position: relative;
+	float: right;
 	border: 5px solid blue;
 }
 
@@ -13,33 +16,49 @@ img:hover{
 	border: 5px solid red;
 }	
 
+p{
+}
+
 p.h1{	
 	font-size: 30px;
 	font-family: Monospace;
-	font: Monospace;
 	color: darkred;
 }
 
 p.h2{
+	text-align: justify;
 	font-family: Monospace;
-	font: Monospace;
-	color: azure;
+	color: red;
 }
 
 p.lyrics{
+	float: left;
+	margin: 0px auto;
+	text-align: justify;
 	font-family: Monospace;
 	color: azure;
+	font-size: 15px;
+}
+
+div.video{
+	float: right;
 }
 
 div.b_div2{
+	bottom: 5px;
 	font-family: Monospace;
 	background-color: #a0ff99;
 }
 
 a{
+	float: right;
 	color: darkslateblue;
 }
 
 a:hover{
 	color: blue;
+}
+
+iframe{
+	border: 5px solid blue;
 }
