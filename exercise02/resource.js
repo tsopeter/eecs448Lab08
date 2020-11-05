@@ -25,4 +25,15 @@ function draw(idx, dx, dy){
 	});
 }
 
-
+/**
+*	This takes 2 parameters
+*	@param {Promise} idx	: Takes the element of the resource array
+*	@param {Object} dElem	: Takes in img document object
+*/
+function toElem(idx, dElem){
+	idx.then(img => {
+		//
+		//get the src and put into the dElem
+		dElem.src = img.src;
+	});
+}
