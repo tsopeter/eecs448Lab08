@@ -1,4 +1,10 @@
 <html>
+    <style>
+        div.mainr{
+            display: block;
+            text-align: center;
+        }
+    </style>
     <body>
         <div class="mainr">
             <p>
@@ -6,6 +12,23 @@
                 Hello, world... or whatever. Just a example paragraph</BR>
                 for exercise 04, or CSS manipulation...</BR>
             </p>
+        </div>
+        <div class="border_input">
+            <scan id="border_tag"> BORDER CSS EDIT</scan></BR>
+            <input type="number" id="border_r" > Red value (0-255)</input></BR>
+            <input type="number" id="border_g" > Green value (0-255)</input></BR>
+            <input type="number" id="border_b" > Blue value (0-255)</input></BR>
+            <input type="number" id="border_width" > Width (0-1000)px </input></BR>
+            <button id="border_input">Input value</button></BR>
+        </div>
+        </BR>
+        <div class="background_input">
+            <scan id="background_tag"> BACKGROUND CSS EDIT</scan></BR>
+            <input type="number" id="background_r"> Red value (0-255)</input></BR>
+            <input type="number" id="background_g"> Green value (0-255)</input></BR>
+            <input type="number" id="background_b"> Blue value (0-255)</input></BR>
+            <input type="number" id="background_width"> Width (0-1000)px </input></BR>
+            <button id="background_input">Input value</button>
         </div>
     </body>
     <head>
