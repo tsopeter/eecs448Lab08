@@ -1,13 +1,28 @@
 <html>
     <style>
+        body{
+            font-family: monospace;
+        }
+        div{
+            font-family: monospace;
+        }
         div.mainr{
             display: block;
             text-align: center;
+            font-family: monospace;
+        }
+        button{
+            font-family: monospace;
+        }
+
+        p{
+            border-style: solid;
+            border-color: blue;
         }
     </style>
     <body>
         <div class="mainr">
-            <p>
+            <p id="sample">
                 This is just a text block.</BR>
                 Hello, world... or whatever. Just a example paragraph</BR>
                 for exercise 04, or CSS manipulation...</BR>
@@ -18,7 +33,7 @@
             <input type="number" id="border_r" > Red value (0-255)</input></BR>
             <input type="number" id="border_g" > Green value (0-255)</input></BR>
             <input type="number" id="border_b" > Blue value (0-255)</input></BR>
-            <input type="number" id="border_width" > Width (0-1000)px </input></BR>
+            <input type="number" id="border_width" > Width (0-100)px </input></BR>
             <button id="border_input">Input value</button></BR>
         </div>
         </BR>
@@ -27,7 +42,6 @@
             <input type="number" id="background_r"> Red value (0-255)</input></BR>
             <input type="number" id="background_g"> Green value (0-255)</input></BR>
             <input type="number" id="background_b"> Blue value (0-255)</input></BR>
-            <input type="number" id="background_width"> Width (0-1000)px </input></BR>
             <button id="background_input">Input value</button>
         </div>
     </body>
