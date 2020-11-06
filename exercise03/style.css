@@ -19,12 +19,12 @@ img{
 
 img:hover{
 	border: 5px solid red;
-}	
+}
 
 p{
 }
 
-p.h1{	
+p.h1{
 	font-size: 30px;
 	font-family: Monospace;
 	color: darkred;
@@ -46,7 +46,8 @@ p.lyrics{
 }
 
 div.video{
-	float: right;
+	float: left;
+	margin-left: 150px;
 }
 
 #block2{
