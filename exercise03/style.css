@@ -48,14 +48,13 @@ p.lyrics{
 div.video{
 	display: flex;
 	align-items: center;
-	left: 50%;
 }
 
 #block2{
-	bottom: -300px;
+	bottom: 0px;
 	text-align: left;
 	position: fixed;
-	background-color: green;
+	background-color: lightgreen;
 	width: 100%;
 }
 
@@ -69,5 +68,5 @@ a:hover{
 }
 
 iframe{
-	border: 5px solid green;
+	border: 5px solid powderblue;
 }
