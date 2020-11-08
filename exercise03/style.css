@@ -51,9 +51,9 @@ div.video{
 }
 
 #block2{
+	display: flex;
 	bottom: 0px;
 	text-align: left;
-	position: fixed;
 	background-color: lightgreen;
 	width: 100%;
 }
